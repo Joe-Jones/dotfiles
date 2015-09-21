@@ -31,4 +31,7 @@
 (add-hook 'c-mode-hook 'helm-gtags-mode)
 (add-hook 'c++-mode-hook 'helm-gtags-mode)
 
-  
+;;; I want to see line numbers.
+(add-hook 'perl-mode-hook 'linum-mode)
+(add-hook 'c-mode-hook 'linum-mode)
+(add-hook 'c++-mode-hook 'linum-mode)
