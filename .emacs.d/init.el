@@ -35,3 +35,6 @@
 (add-hook 'perl-mode-hook 'linum-mode)
 (add-hook 'c-mode-hook 'linum-mode)
 (add-hook 'c++-mode-hook 'linum-mode)
+
+;;; I don't want to see the menu bar
+(menu-bar-mode -1)
