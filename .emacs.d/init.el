@@ -31,6 +31,9 @@
 (add-hook 'c-mode-hook 'helm-gtags-mode)
 (add-hook 'c++-mode-hook 'helm-gtags-mode)
 
+;;; I want .t files to open in perl major mode.
+(add-to-list 'auto-mode-alist '("\\.t\\'" . perl-mode))
+
 ;;; I want to see line numbers.
 (add-hook 'perl-mode-hook 'linum-mode)
 (add-hook 'c-mode-hook 'linum-mode)
